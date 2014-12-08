@@ -1,0 +1,76 @@
+/* line 2, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+#menu-indent {
+  padding-left: 2em; }
+
+/* line 6, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+.back-image {
+  height: 16em;
+  background-color: #4a90e2;
+  color: #fff;
+  background-position: -500px -100px; }
+
+/* line 14, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+.mast {
+  padding: 3em 1em 0em 1em; }
+
+/* line 17, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+.mast-blue {
+  padding: 1em; }
+
+/* line 21, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+.intro {
+  font-size: 120%;
+  letter-spacing: 2px; }
+
+/* line 26, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+.topspace {
+  margin-top: 2em; }
+
+/* line 30, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+.big {
+  font-size: 180%; }
+
+/* line 34, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+.contact {
+  font-size: 110%; }
+
+/* line 38, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+h4 {
+  color: #999;
+  font-weight: bold; }
+
+/* line 43, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+.white-text {
+  color: #fff; }
+
+/* line 47, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+.light {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-weight: lighter; }
+
+/* line 56, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+/* line 62, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+main {
+  height: 100%;
+  padding-bottom: 5em; }
+
+/* line 67, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+.wrapper {
+  min-height: 100%;
+  position: relative; }
+
+/* line 72, /Users/rayfix/projects/www-heartratetouch/source/stylesheets/style.css.scss */
+footer {
+  background-color: #333;
+  color: #aaa;
+  width: 100%;
+  height: 5em;
+  bottom: 0;
+  left: 0;
+  margin-top: -5em; }
