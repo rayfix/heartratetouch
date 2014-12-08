@@ -3,16 +3,58 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="http://pelfunc.com/favicon.ico?v=2" />
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= data.page.title || "The Middleman" %></title>
+    <title><%= data.page.title || "Pelfunc, Inc." %></title>
+    <%= data.page.meta %>
     
     <%= stylesheet_link_tag "app", "style" %>
     <%= javascript_include_tag "modernizr" %>
   </head>
   
   <body class="<%= page_classes %>">
-    <%= yield %>
+  <div class="off-canvas-wrap wrapper" data-offcanvas>
+    <div class="inner-wrap">
+      <nav class="tab-bar hide-for-medium-up">
+        <section class="left-small">
+          <a class="left-off-canvas-toggle menu-icon" href="#"><span id="menu-indent">Menu</span></a>
+        </section>
+      </nav>
+      <aside class="left-off-canvas-menu">
+        <ul class="off-canvas-list">
+          <%= partial(:menu) %>
+        </ul>
+      </aside>
+      <a class="exit-off-canvas"></a>
 
-    <%= javascript_include_tag  "all" %>
+      <div class="show-for-medium-up contain-to-grid">
+        <nav class="top-bar show-for-medium-up" data-topbar>
+          <ul class="title-area">
+            <li class="name"><a href="/"><img width="35" height="35" style="padding-top: 10px; padding-left: 10px; opacity: 0.85;" src="/images/pelfunc_grid_white.png" alt="Pelfunc Grid Symbol"></a></li>
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+          </ul>
+          <section class="top-bar-section right">
+            <ul>
+              <%= partial(:menu) %>
+            </ul>
+          </section>
+        </nav>
+      </div>
+
+    <main>
+      <%= yield %>
+    </main>
+    </div> <!-- inner wrap -->
+  </div> <!-- off canvas -->
+  <%= javascript_include_tag  "all" %>
+
+    <footer>
+      <div class="row">
+        <div class="large-offset-6 large-6 columns">      
+          <div class="topspace right">&copy; Pelfunc Inc., 2011-2014.</div>
+        </div>
+      </div>
+    </footer>
+    <%= partial(:analytics) %>
   </body>
 </html>
