@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="http://pelfunc.com/favicon.ico?v=2" />
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>About Heart Rate Touch</title>
+    <title>In the App Store</title>
     
     
     <link href="/stylesheets/app.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
@@ -21,7 +21,7 @@
  
   </head>
   
-  <body class="about about_index">
+  <body class="blog blog_blog blog_blog_2014-12-12-hello">
   <div class="off-canvas-wrap wrapper" data-offcanvas>
     <div class="inner-wrap">
       <nav class="tab-bar hide-for-medium-up">
@@ -31,7 +31,7 @@
       </nav>
       <aside class="left-off-canvas-menu">
         <ul class="off-canvas-list">
-              <li><a href="../">Home</a></li>
+              <li><a href="../../">Home</a></li>
     <li><a href="/about">About</a></li>
     <li><a href="/faq">FAQ</a></li>
     <li><a href="/privacy">Privacy</a>
@@ -48,7 +48,7 @@
           </ul>
           <section class="top-bar-section right">
             <ul>
-                  <li><a href="../">Home</a></li>
+                  <li><a href="../../">Home</a></li>
     <li><a href="/about">About</a></li>
     <li><a href="/faq">FAQ</a></li>
     <li><a href="/privacy">Privacy</a>
@@ -59,41 +59,9 @@
       </div>
 
     <main>
-      <div class="row">
-  <div class="small-8 columns">
+      <p>Hello.  We are happy to announce that version 1.0 of Heart Rate Touch is now available in the app store.  In this release we are striving for accuracy, ease of use, and privacy.  Almost as important in what we are releasing in this app is what we are not releasing.  No ads, no in-app purchases, no pesky upsells.  The main goal of the app is one thing–to measure your heart rate.</p>
 
-<h1>About</h1>
-
-<p>
-Keeping tabs on your pulse is an important tool for tracking your overall fitness. Heart Rate Touch measures your pulse simply and accurately while respecting your privacy. No logins, in-app purchases or other up-sell gimmicks.  An easy to use app, sold at a fair price. Written entirely in Swift, an innovative new programming language from Apple, it features leading edge technology:
-</p>
-
-<p>
-<ul>
-
-<li><b>Quick and simple to use:</b> Cover the both the flash and the camera with your finger. Apply a steady, light pressure and remain still. A great way to do this is by resting the phone on your finger and let the weight of the phone do the work. </li>
-
-<li><b>Advanced algorithm produces highly accurate result:</b> Heart Rate Touch is an optical heart rate monitors that use light to track your blood. By illuminating your capillaries in your finger-tip with a light source (Flash), a sensor (Camera) adjacent to the light measures the frequency (Heart Rate) at which your blood pumps, from the “redness” of the images it captures. Results have a theoretical accuracy to well within 1 beat per minute.</li>
-
-<li><b>Privacy and Sharing:</b> The app does not collect any user information that is communicated back to a server. The measurements remain private on your device. Results are available to be exported in text format and also to Apple's Health app at your discretion.</li>
-</ul>
-</p>
-
-</div>
-
-<div class="small-4 columns">
-
-    <div class="topspace">     
-    <a href="https://itunes.apple.com/us/app/heart-rate-touch/id945121083"><img src="/images/DownloadOnAppStore.png" alt="Download on App Store" width="160px"></a>
-    </div>
-
-    <div class="topspace">
-    <img src="/images/HeartRateTouch440.png" width="220px" alt="Picture of iPhones running Heart Rate Touch" />
-    </div>
-
-</div>
-
-</div>
+<p>Apps don't just appear in the store.  They are the culmination of a lot of though, design and implementation.  We learned a lot putting this app in the store and continue to learn a lot.  Our hope is that this blog can serve as an outlet to share the things we learn.</p>
 
     </main>
     </div> <!-- inner wrap -->
