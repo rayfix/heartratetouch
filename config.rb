@@ -111,6 +111,16 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+activate :i18n do |i18n|
+end
+
+activate :blog do |blog|
+  # set options on blog
+  blog.prefix = "blog"
+  blog.permalink = "/blog/:year-:month-:day-:title"
+
+end
+
 activate :deploy do |deploy|
   deploy.method = :git
   # Optional Settings

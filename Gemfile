@@ -3,6 +3,8 @@
 source 'http://rubygems.org'
 
 gem "middleman"
+gem "middleman-blog"
+gem "nokogiri"
 
 # Live-reloading plugin
 gem "middleman-livereload"

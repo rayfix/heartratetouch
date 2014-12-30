@@ -1,0 +1,38 @@
+---
+pageable: true
+per_page: 1
+---
+<div class="row">
+  <div class="small-8 columns">
+<% if paginate && num_pages > 1 %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>
+
+
+<% page_articles.each_with_index do |article, i| %>
+<article>
+<div class="row">
+  <div class="small-12 columns">
+    <h2><%= article.title() %></h2>
+    <p><b><%= article.date.strftime('%B %e, %Y') %></b></p>
+    <%= article.body() %>
+  </div>
+
+</div>
+</article>
+<% end %>
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>
+  </div>
+
+  <%= partial(:appstore) %>
+
+</div>
