@@ -21,7 +21,7 @@
  
   </head>
   
-  <body class="blog blog_blog blog_blog_2014-12-29-accuracy">
+  <body class="blog blog_2014 blog_2014_12 blog_2014_12_29 blog_2014_12_29_accuracy blog_2014_12_29_accuracy_index">
   <div class="off-canvas-wrap wrapper" data-offcanvas>
     <div class="inner-wrap">
       <nav class="tab-bar hide-for-medium-up">
@@ -31,7 +31,7 @@
       </nav>
       <aside class="left-off-canvas-menu">
         <ul class="off-canvas-list">
-              <li><a href="../../">Home</a></li>
+              <li><a href="../../../../../">Home</a></li>
     <li><a href="/about">About</a></li>
     <li><a href="/faq">FAQ</a></li>
     <li><a href="/privacy">Privacy</a>
@@ -48,7 +48,7 @@
           </ul>
           <section class="top-bar-section right">
             <ul>
-                  <li><a href="../../">Home</a></li>
+                  <li><a href="../../../../../">Home</a></li>
     <li><a href="/about">About</a></li>
     <li><a href="/faq">FAQ</a></li>
     <li><a href="/privacy">Privacy</a>
@@ -59,11 +59,15 @@
       </div>
 
     <main>
-      <p>One the the primary goals of Heart Rate Touch is to produce the most accurate answers possible.  Accuracy degrades with sensor noise, user motion, pulse irregularities, numerical errors, and, of course, software bugs.  This blog post is a little bit technical, but shows how we quantified and improved our accuracy before we released 1.0.</p>
-
-<p>The best way to gain confidence in software is to test, and with a little design you can make your software readily testable.  Synthetic image testing is an approach you simulate image inputs from a known value. You can measure the actual output and compare it with the expected output.  For Heart Rate Touch, it looks like this:</p>
+        <div class="row">
+    <div class="small-8 columns">
+  <h2>Investigating Accuracy</h2>
+  <article>
+  <p>One the the primary goals of Heart Rate Touch is to produce the most accurate answers possible.  Accuracy degrades with sensor noise, user motion, pulse irregularities, numerical errors, and, of course, software bugs.  This blog post is a little bit technical, but shows how we quantified and improved our accuracy before we released 1.0.</p>
 
 <p></p>
+
+<p>The best way to gain confidence in software is to test, and with a little design you can make your software readily testable.  Synthetic image testing is an approach you simulate image inputs from a known value. You can measure the actual output and compare it with the expected output.  For Heart Rate Touch, it looks like this:</p>
 
 <p><img alt="Sythetic Testing" width="264" height="515" src="/images/blog/synth.png" /></p>
 
@@ -98,6 +102,21 @@
 <h4 id="future-work">Future Work</h4>
 
 <p>We are quite pleased with the performance of 1.0 but that doesn't mean there isn't room for improvement.  When the user moves or the pulse is irregular, it can sometimes result in an incorrect measurement.  We are studying these problems and ways to address them.  We look forward to being able to roll out these improvements in future releases and blog about them.  Speaking of which, if you are interested in testing early beta versions, reach out to us at <a href="mailto:hrt@pelfunc.com">hrt@pelfunc.com</a>.  We can't guarantee that you will get a spot, but we would love to hear from you.</p>
+
+  </article>
+    </div>
+    <div class="small-4 columns">
+
+    <div class="topspace">     
+    <a href="https://itunes.apple.com/us/app/heart-rate-touch/id945121083"><img src="/images/DownloadOnAppStore.png" alt="Download on App Store" width="160px"></a>
+    </div>
+
+    <div class="topspace">
+    <img src="/images/HeartRateTouch440.png" width="220px" alt="Picture of iPhones running Heart Rate Touch" />
+    </div>
+
+</div>
+  </div>
 
     </main>
     </div> <!-- inner wrap -->
