@@ -1,8 +1,7 @@
 ---
-title: First Review
+title: appPicker Review
 date: 2014-12-26
-tags: review
-public: false
+tags: review, apppicker
 ---
- is the first to pick it up.   It is pretty obvious from their analysis that they get what we are going for with this app--an easy way to measure your heart rate without a lot of distracting bells and whistles.  
+Mark Bangs of appPicker wrote the <a href="http://www.apppicker.com/reviews/20640/heart-rate-touch-app-review-take-heart">first review Heart Rate Touch</a>.  He concludes, "Heart Rate Touch is definitely one of the best heart rate measurement apps for iPhone and iPad at the moment, earning it a solid recommendation from me."  Hard to argue with that. We agree. :)
 

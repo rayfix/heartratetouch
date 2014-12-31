@@ -1,0 +1,11 @@
+<% wrap_layout :layout do %>
+  <div class="row">
+    <div class="small-8 columns">
+  <h2><%= current_article.title%></h2>
+  <article>
+  <%= yield %>
+  </article>
+    </div>
+    <%= partial(:appstore) %>
+  </div>
+<% end %>

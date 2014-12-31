@@ -67,10 +67,6 @@ activate :automatic_image_sizes
 # Reload the browser automatically whenever files change
 activate :livereload
 
-
-# Ray Fix: happy directories
-activate :directory_indexes
-
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -115,11 +111,13 @@ activate :i18n do |i18n|
 end
 
 activate :blog do |blog|
-  # set options on blog
   blog.prefix = "blog"
-  blog.permalink = "/blog/:year-:month-:day-:title"
-
+  blog.permalink = "{year}/{month}/{day}/{title}"
+  blog.layout = "blog_layout"
 end
+
+# Ray Fix: happy directories-- must be after blog extension
+activate :directory_indexes
 
 activate :deploy do |deploy|
   deploy.method = :git
