@@ -2,6 +2,7 @@
   <div class="row">
     <div class="small-8 columns">
   <h2><%= current_article.title%></h2>
+  <p><aside><b><%= current_article.date.strftime('%B %e, %Y') %></b></aside></p>
   <article>
   <%= yield %>
   </article>
